@@ -1,5 +1,7 @@
 class Parse():
-    def parse_to_list(self, input: str, delimiter: str = '\n') -> list:
+
+    @staticmethod
+    def str_to_list(input: str, delimiter: str = '\n') -> list:
         """Parse the input on a given delimiter.
 
         Args:

@@ -19,12 +19,6 @@ if __name__ == "__main__":
 
         print("Part 1:", solution1)
         print("Part 2:", solution2)
-    except ModuleNotFoundError:
-        print(f"Day {day_number} not found.")
-        sys.exit(1)
-    except AttributeError:
-        print(f"Day {day_number} does not have the required methods or class for day {day_number} was not found.")
-        sys.exit(1)
     except Exception as e:
         print(f"Error: {e}")
         sys.exit(1)
