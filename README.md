@@ -16,3 +16,6 @@ will run the solution under `day_2` folder
 ```bash
 aoc download --input-file day_{number here}/input.txt
 ```
+
+## Dubugging in vscode
+With the repo open in vscode, Press shift + cmd + d (on mac) to open the debug panel. Then click on the green play button to start debugging. This will run the `solve.py` file where it will prompt you which day you want to run.
