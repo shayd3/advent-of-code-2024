@@ -14,7 +14,7 @@ will run the solution under `day_2` folder
 
 ## using aoc-cli to get inputs
 ```bash
-aoc download --input-file day_{number here}/input.txt
+aoc download --input-file day_{number here}/input.txt --puzzle-file day_{number here}/puzzle.md
 ```
 
 ## Dubugging in vscode
