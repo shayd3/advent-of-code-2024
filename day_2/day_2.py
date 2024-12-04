@@ -1,5 +1,4 @@
 from day import Day
-from utilities.parse import Parse
 class Day_2(Day):
     def __init__(self):
         self.input = self.puzzle_input(is_example_input=False)
