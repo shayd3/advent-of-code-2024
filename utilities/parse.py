@@ -11,3 +11,7 @@ class Parse():
         Returns:
             list: The input string split on the delimiter."""
         return [line for line in input.split(delimiter)]
+
+    @staticmethod
+    def to_2d_list(input: str) -> list:
+        return [list(line) for line in input.splitlines()]
