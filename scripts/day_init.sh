@@ -25,10 +25,10 @@ class Day_$day_number(Day):
     def __init__(self):
         self.input = self.puzzle_input(is_example_input=True)
 
-    def part_1(self):
+    def part1(self):
         return
 
-    def part_2(self):
+    def part2(self):
         return
 
 EOF
