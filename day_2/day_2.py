@@ -1,7 +1,7 @@
 from day import Day
 class Day_2(Day):
-    def __init__(self):
-        self.input = self.puzzle_input(is_example_input=False)
+    def __init__(self,is_example_input=False):
+        self.input = self.puzzle_input(is_example_input)
 
     def parse_input(self):
         return [list(map(int, report.split())) for report in self.input.splitlines()]

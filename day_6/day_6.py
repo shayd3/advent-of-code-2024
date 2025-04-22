@@ -3,8 +3,8 @@ from day import Day
 from utilities.parse import Parse
 
 class Day_6(Day):
-    def __init__(self):
-        self.input = self.puzzle_input(is_example_input=False)
+    def __init__(self, is_example_input=False):
+        self.input = self.puzzle_input(is_example_input)
 
     def parse_input(self):
         guard_position = (0, 0)

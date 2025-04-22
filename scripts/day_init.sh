@@ -21,9 +21,9 @@ cat <<EOF > day_$day_number/day_$day_number.py
 from day import Day
 from utilities.parse import Parse
 
-class Day_$day_number(Day):
+class Day_$day_number(Day, is_example_input=False):
     def __init__(self):
-        self.input = self.puzzle_input(is_example_input=True)
+        self.input = self.puzzle_input(is_example_input)
 
     def part1(self):
         return

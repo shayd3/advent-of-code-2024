@@ -4,8 +4,8 @@ from collections import Counter
 from typing import List
 
 class Day_1(Day):
-    def __init__(self):
-        self.input = self.puzzle_input()
+    def __init__(self, is_example_input=False):
+        self.input = self.puzzle_input(is_example_input)
 
     def parse_input(self) -> List[int]:
         left_list, right_list = [], []

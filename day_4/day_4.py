@@ -3,8 +3,8 @@ from utilities.parse import Parse
 from collections import defaultdict
 
 class Day_4(Day):
-    def __init__(self):
-        self.input = self.puzzle_input(is_example_input=False)
+    def __init__(self, is_example_input=False):
+        self.input = self.puzzle_input(is_example_input)
 
     def parse_input(self):
         return Parse.to_2d_list(self.input)

@@ -1,8 +1,8 @@
 from day import Day
 import re
 class Day_3(Day):
-    def __init__(self):
-        self.input = self.puzzle_input(is_example_input=False)
+    def __init__(self, is_example_input=False):
+        self.input = self.puzzle_input(is_example_input)
 
     def find_mul(self, string):
         pattern = r"mul\(\d+,\d+\)"
